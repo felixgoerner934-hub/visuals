@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "lumina",
+  "version": "${version}",
+  "name": "Lumina Visuals",
+  "description": "A modern, fully customisable visual overhaul: dark settings menu, crosshair, info HUD, screen effects, themes and presets.",
+  "authors": ["Lumina Visuals"],
+  "license": "MIT",
+  "icon": "assets/lumina/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.lumina.client.LuminaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
